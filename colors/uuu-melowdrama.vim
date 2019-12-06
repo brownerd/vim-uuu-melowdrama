@@ -12,14 +12,7 @@
 
   let g:colors_name="uuu-melowdrama"
 
-" }}}
-
-" {{{ Italics
   let s:italic = "italic"
-  endif
-"}}}
-
-" {{{ Bold
   let s:bold = "bold"
 "}}}
 
@@ -66,6 +59,7 @@
   let s:gitgutter_lineaddedcolor=['#03ff66']
   let s:gitgutter_linemodifiedcolor=['#ffd400']
   let s:gitgutter_lineremovedcolor=['#ff0100']
+  let s:white=['#ffffff']
 
   let s:base00=['#000000', '235']
   let s:base01=['#006c15', '237']
@@ -180,7 +174,7 @@ call <sid>hi('Special',                    s:base0C, '',       '',          '')
 call <sid>hi('SpecialChar',                s:base0F, '',       '',          '')
 call <sid>hi('Statement',                  s:consolelog_color, '',       '',          '')
 call <sid>hi('StorageClass',               s:storage_color, '',       '',          '')
-call <sid>hi('String',                     s:string_colo, '',       '',          '')
+call <sid>hi('String',                     s:string_color, '',       '',          '')
 call <sid>hi('Structure',                  s:base0E, '',       '',          '')
 call <sid>hi('Tag',                        s:tag_color, '',       '',          '')
 call <sid>hi('Todo',                       s:white, s:folded_codecolor, '',          '')
