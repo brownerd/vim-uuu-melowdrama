@@ -13,6 +13,12 @@
 
   let s:italic = "italic"
   let s:bold = "bold"
+
+  Error detected while processing function <SNR>12_hi:
+line    4:
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
 "}}}
 
 
@@ -129,7 +135,7 @@ call <sid>hi('Title',                      s:base0D, '',       '',          '')
 call <sid>hi('Conceal',                    s:base0D, s:base00, '',          '')
 call <sid>hi('Cursor',                     s:base00, s:base05, '',          '')
 call <sid>hi('NonText',                    s:base03, '',       '',          '')
-call <sid>hi('Normal',                     s:base05, s:base00, '',          '')
+call <sid>hi('Normal',                     s:editor_color, s:editor_backgroundcolor, '',          '')
 call <sid>hi('EndOfBuffer',                s:base05, s:base00, '',          '')
 call <sid>hi('LineNr',                     s:base03, s:base00, '',          '')
 call <sid>hi('SignColumn',                 s:base00, s:base00, '',          '')
