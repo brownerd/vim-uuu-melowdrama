@@ -1,6 +1,6 @@
 " ===============================================================
-" OceanicNext
-" Author=['Mike Ha']tington
+" UUU Melowdrama
+" Author: Brownerd (forked from Mike Hatington)
 " ===============================================================
 
 " {{{ Setup
@@ -159,54 +159,6 @@ call <sid>hi('TabLineSel',                 s:base0B, s:base01, '',          '')
 call <sid>hi('helpExample',                s:base0A, '',       '',          '')
 call <sid>hi('helpCommand',                s:base0A, '',       '',          '')
 
-
-
-
-
-  let s:editor-backgroundcolor=['#332d5a']
-  let s:editor-color=['#7b9cff']
-  let s:gutter-color=['#665b8d']
-  let s:gutter-punk=['hellyea']
-  let s:selectedline-backgroundcolor=['#28254a']
-  let s:selectedline-backgroundguttercolor=['#7b9cff']
-  let s:cursor-color=['#ffd400']
-  let s:indentguide-linecolor=['#51467c']
-  let s:folded-codecolor=['#ff2f91']
-  let s:bracketmatcher-backgroundcolor=['#fad549']
-  let s:comment-color=['#51467c']
-  let s:selector-color=['#fd477b']
-  let s:pseudo-color=['#ff9700']
-  let s:propertyname-color=['#7b9cff']
-  let s:propertyvalue-color=['#cacadb']
-  let s:unit-color=['#ff9409']
-  let s:number-color=['#07fdff']
-  let s:punctuation-color=['#cacadb']
-  let s:doctype-color=['#cacadb']
-  let s:tag-color=['#c02b44']
-  let s:attributename-color=['#a477f1']
-  let s:quotationmark-color=['#cacadb']
-  let s:string-color=['#807711']
-  let s:storage-color=['#a477f1']
-  let s:storagemodifier-color=['#a477f1']
-  let s:operator-color=['#fffb00']
-  let s:functionname-color=['#7b9cff']
-  let s:consolelog-color=['#ff2600']
-  let s:class-color=['#ff9700']
-  let s:instance-color=['#00f900']
-  let s:regex-color=['#ffffff']
-  let s:control-color=['#85c99b']
-  let s:constant-color=['#fec109']
-  let s:boolean-color=['#fa685c']
-  let s:module-color=['#e52661']
-  let s:namespace-color=['#effb23']
-  let s:type-color=['#00f900']
-  let s:identifier-color=['#7d6a52']
-  let s:gitgutter-lineaddedcolor=['#03ff66']
-  let s:gitgutter-linemodifiedcolor=['#ffd400']
-  let s:gitgutter-lineremovedcolor=['#ff0100']
-  let s:white=['#ffffff']
-
-
 " Standard syntax highlighting
 call <sid>hi('Boolean',                    s:boolean-color, '',       '',          '')
 call <sid>hi('Character',                  s:consolelog-color, '',       '',          '')
@@ -240,72 +192,6 @@ call <sid>hi('SpellBad',                   '',       '',       'undercurl', '')
 call <sid>hi('SpellLocal',                 '',       '',       'undercurl', '')
 call <sid>hi('SpellCap',                   '',       '',       'undercurl', '')
 call <sid>hi('SpellRare',                  '',       '',       'undercurl', '')
-
-
-cssVendor:                   '' # Comment
-
-cssTagName:                  '' # Statement
-
-cssSelectorOp:               '' # Special
-cssSelectorOp2:              '' # Special
-cssAttrComma:                '' # Special
-
-
-cssFontProp:                 '' # cssProp
-
-cssHyerlinkProp:             '' # cssProp
-
-cssPseudoClassId:            '' # PreProc
-cssPseudoClassLang:          '' # Constant
-
-cssValueLength:              '' # Number
-cssValueInteger:             '' # Number
-cssValueNumber:              '' # Number
-cssValueAngle:               '' # Number
-cssValueTime:                '' # Number
-cssValueFrequency:           '' # Number
-
-cssFunction:                 '' # Constant
-
-cssURL:                      '' # String
-cssFunctionName:             '' # Function
-cssFunctionComma:            '' # Function
-cssColor:                    'base0C . .'
-cssIdentifier:               '' # Function
-cssInclude:                  '' # Include
-cssIncludeKeyword:           '' # atKeyword
-cssImportant:                '' # Special
-cssBraces:                   'base05 . .'
-cssBraceError:               '' # Error
-cssError:                    '' # Error
-cssUnicodeEscape:            '' # Special
-cssStringQQ:                 '' # String
-cssStringQ:                  '' # String
-cssAttributeSelector:        '' # String
-cssMedia:                    '' # atKeyword
-cssMediaType:                '' # Special
-cssMediaComma:               '' # Normal
-cssMediaKeyword:             '' # Statement
-cssMediaProp:                '' # cssProp
-cssMediaAttr:                '' # cssAttr
-cssPage:                     '' # atKeyword
-cssPagePseudo:               '' # PreProc
-cssPageMargin:               '' # atKeyword
-cssPageProp:                 '' # cssProp
-cssKeyFrame:                 '' # atKeyword
-cssKeyFrameSelector:         '' # Constant
-cssFontDescriptor:           '' # Special
-cssFontDescriptorFunction:   '' # Constant
-cssFontDescriptorProp:       '' # cssProp
-cssFontDescriptorAttr:       '' # cssAttr
-cssUnicodeRange:             '' # Constant
-cssClassName:                'base0E . .'
-cssClassNameDot:             '' # Function
-cssProp:                     '' # StorageClass
-cssAttr:                     '' # Constant
-cssUnitDecorators:           '' # Number
-cssNoise:                    '' # Noise
-atKeyword:                   '' # PreProc
 
 
 call <sid>hi('cssColor',                   s:base0C, '',       '',          '')
