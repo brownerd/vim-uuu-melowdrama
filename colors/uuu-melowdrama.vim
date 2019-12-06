@@ -10,7 +10,7 @@
     syntax reset
   endif
 
-  let g:colors_name="uuu_melowdrama"
+  let g:colors_name="uuu-melowdrama"
 
 " }}}
 
