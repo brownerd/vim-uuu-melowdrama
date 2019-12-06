@@ -24,7 +24,6 @@
 "}}}
 
 
-
 " {{{ Colors
   let s:editor-backgroundcolor=['#332d5a']
   let s:editor-color=['#7b9cff']
