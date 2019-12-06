@@ -10,7 +10,7 @@
     syntax reset
   endif
 
-  let g:colors_name="uuu-melowdrama"
+  let g:colors_name="uuu_melowdrama"
 
 " }}}
 
@@ -25,47 +25,47 @@
 
 
 " {{{ Colors
-  let s:editor-backgroundcolor=['#332d5a']
-  let s:editor-color=['#7b9cff']
-  let s:gutter-color=['#665b8d']
-  let s:gutter-punk=['hellyea']
-  let s:selectedline-backgroundcolor=['#28254a']
-  let s:selectedline-backgroundguttercolor=['#7b9cff']
-  let s:cursor-color=['#ffd400']
-  let s:indentguide-linecolor=['#51467c']
-  let s:folded-codecolor=['#ff2f91']
-  let s:bracketmatcher-backgroundcolor=['#fad549']
-  let s:comment-color=['#51467c']
-  let s:selector-color=['#fd477b']
-  let s:pseudo-color=['#ff9700']
-  let s:propertyname-color=['#7b9cff']
-  let s:propertyvalue-color=['#cacadb']
-  let s:unit-color=['#ff9409']
-  let s:number-color=['#07fdff']
-  let s:punctuation-color=['#cacadb']
-  let s:doctype-color=['#cacadb']
-  let s:tag-color=['#c02b44']
-  let s:attributename-color=['#a477f1']
-  let s:quotationmark-color=['#cacadb']
-  let s:string-color=['#807711']
-  let s:storage-color=['#a477f1']
-  let s:storagemodifier-color=['#a477f1']
-  let s:operator-color=['#fffb00']
-  let s:functionname-color=['#7b9cff']
-  let s:consolelog-color=['#ff2600']
-  let s:class-color=['#ff9700']
-  let s:instance-color=['#00f900']
-  let s:regex-color=['#ffffff']
-  let s:control-color=['#85c99b']
-  let s:constant-color=['#fec109']
-  let s:boolean-color=['#fa685c']
-  let s:module-color=['#e52661']
-  let s:namespace-color=['#effb23']
-  let s:type-color=['#00f900']
-  let s:identifier-color=['#7d6a52']
-  let s:gitgutter-lineaddedcolor=['#03ff66']
-  let s:gitgutter-linemodifiedcolor=['#ffd400']
-  let s:gitgutter-lineremovedcolor=['#ff0100']
+  let s:editor_backgroundcolor=['#332d5a']
+  let s:editor_color=['#7b9cff']
+  let s:gutter_color=['#665b8d']
+  let s:gutter_punk=['hellyea']
+  let s:selectedline_backgroundcolor=['#28254a']
+  let s:selectedline_backgroundguttercolor=['#7b9cff']
+  let s:cursor_color=['#ffd400']
+  let s:indentguide_linecolor=['#51467c']
+  let s:folded_codecolor=['#ff2f91']
+  let s:bracketmatcher_backgroundcolor=['#fad549']
+  let s:comment_color=['#51467c']
+  let s:selector_color=['#fd477b']
+  let s:pseudo_color=['#ff9700']
+  let s:propertyname_color=['#7b9cff']
+  let s:propertyvalue_color=['#cacadb']
+  let s:unit_color=['#ff9409']
+  let s:number_color=['#07fdff']
+  let s:punctuation_color=['#cacadb']
+  let s:doctype_color=['#cacadb']
+  let s:tag_color=['#c02b44']
+  let s:attributename_color=['#a477f1']
+  let s:quotationmark_color=['#cacadb']
+  let s:string_color=['#807711']
+  let s:storage_color=['#a477f1']
+  let s:storagemodifier_color=['#a477f1']
+  let s:operator_color=['#fffb00']
+  let s:functionname_color=['#7b9cff']
+  let s:consolelog_color=['#ff2600']
+  let s:class_color=['#ff9700']
+  let s:instance_color=['#00f900']
+  let s:regex_color=['#ffffff']
+  let s:control_color=['#85c99b']
+  let s:constant_color=['#fec109']
+  let s:boolean_color=['#fa685c']
+  let s:module_color=['#e52661']
+  let s:namespace_color=['#effb23']
+  let s:type_color=['#00f900']
+  let s:identifier_color=['#7d6a52']
+  let s:gitgutter_lineaddedcolor=['#03ff66']
+  let s:gitgutter_linemodifiedcolor=['#ffd400']
+  let s:gitgutter_lineremovedcolor=['#ff0100']
 
   let s:baseZ00=['#000000', '235']
   let s:baseZ01=['#006c15', '237']
@@ -110,27 +110,27 @@ endfunction
 
 " {{{ call <sid>:hi(group, fg, bg, gui, guisp)
 call <sid>hi('Bold',                       '',       '',       'bold',      '')
-call <sid>hi('Debug',                      s:consolelog-color, '',       '',          '')
+call <sid>hi('Debug',                      s:consolelog_color, '',       '',          '')
 call <sid>hi('Directory',                  s:base0D, '',       '',          '')
-call <sid>hi('ErrorMsg',                   s:consolelog-color, s:base00, '',          '')
-call <sid>hi('Exception',                  s:consolelog-color, '',       '',          '')
+call <sid>hi('ErrorMsg',                   s:consolelog_color, s:base00, '',          '')
+call <sid>hi('Exception',                  s:consolelog_color, '',       '',          '')
 call <sid>hi('FoldColumn',                 s:base0D, s:base00, '',          '')
 call <sid>hi('Folded',                     s:base03, s:base01, s:italic,    '')
 call <sid>hi('IncSearch',                  s:base01, s:base09, 'NONE',      '')
 call <sid>hi('Italic',                     '',       '',       s:italic,    '')
 
-call <sid>hi('Macro',                      s:consolelog-color, '',       '',          '')
+call <sid>hi('Macro',                      s:consolelog_color, '',       '',          '')
 call <sid>hi('MatchParen',                 s:base05, s:base03, '',          '')
 call <sid>hi('ModeMsg',                    s:base0B, '',       '',          '')
 call <sid>hi('MoreMsg',                    s:base0B, '',       '',          '')
 call <sid>hi('Question',                   s:base0D, '',       '',          '')
 call <sid>hi('Search',                     s:base03, s:base0A, '',          '')
 call <sid>hi('SpecialKey',                 s:base03, '',       '',          '')
-call <sid>hi('TooLong',                    s:consolelog-color, '',       '',          '')
-call <sid>hi('Underlined',                 s:consolelog-color, '',       '',          '')
+call <sid>hi('TooLong',                    s:consolelog_color, '',       '',          '')
+call <sid>hi('Underlined',                 s:consolelog_color, '',       '',          '')
 call <sid>hi('Visual',                     '',       s:base02, '',          '')
-call <sid>hi('VisualNOS',                  s:consolelog-color, '',       '',          '')
-call <sid>hi('WarningMsg',                 s:consolelog-color, '',       '',          '')
+call <sid>hi('VisualNOS',                  s:consolelog_color, '',       '',          '')
+call <sid>hi('WarningMsg',                 s:consolelog_color, '',       '',          '')
 call <sid>hi('WildMenu',                   s:base10, s:base0D, '',          '')
 call <sid>hi('Title',                      s:base0D, '',       '',          '')
 call <sid>hi('Conceal',                    s:base0D, s:base00, '',          '')
@@ -159,32 +159,32 @@ call <sid>hi('helpExample',                s:base0A, '',       '',          '')
 call <sid>hi('helpCommand',                s:base0A, '',       '',          '')
 
 " Standard syntax highlighting
-call <sid>hi('Boolean',                    s:boolean-color, '',       '',          '')
-call <sid>hi('Character',                  s:consolelog-color, '',       '',          '')
-call <sid>hi('Comment',                    s:comment-color, '',       s:italic,    '')
-call <sid>hi('Conditional',                s:control-color, '',       '',          '')
-call <sid>hi('Constant',                   s:constant-color, '',       '',          '')
+call <sid>hi('Boolean',                    s:boolean_color, '',       '',          '')
+call <sid>hi('Character',                  s:consolelog_color, '',       '',          '')
+call <sid>hi('Comment',                    s:comment_color, '',       s:italic,    '')
+call <sid>hi('Conditional',                s:control_color, '',       '',          '')
+call <sid>hi('Constant',                   s:constant_color, '',       '',          '')
 call <sid>hi('Define',                     s:base0E, '',       '',          '')
 call <sid>hi('Delimiter',                  s:base0F, '',       '',          '')
-call <sid>hi('Float',                      s:number-color, '',       '',          '')
-call <sid>hi('Function',                   s:functionname-color, '',       '',          '')
-call <sid>hi('Identifier',                 s:identifier-color, '',       '',          '')
+call <sid>hi('Float',                      s:number_color, '',       '',          '')
+call <sid>hi('Function',                   s:functionname_color, '',       '',          '')
+call <sid>hi('Identifier',                 s:identifier_color, '',       '',          '')
 call <sid>hi('Include',                    s:base0D, '',       '',          '')
 call <sid>hi('Keyword',                    s:base0E, '',       '',          '')
 call <sid>hi('Label',                      s:base0A, '',       '',          '')
-call <sid>hi('Number',                     s:number-color, '',       '',          '')
-call <sid>hi('Operator',                   s:operator-color, '',       '',          '')
+call <sid>hi('Number',                     s:number_color, '',       '',          '')
+call <sid>hi('Operator',                   s:operator_color, '',       '',          '')
 call <sid>hi('PreProc',                    s:base0A, '',       '',          '')
 call <sid>hi('Repeat',                     s:base0A, '',       '',          '')
 call <sid>hi('Special',                    s:base0C, '',       '',          '')
 call <sid>hi('SpecialChar',                s:base0F, '',       '',          '')
-call <sid>hi('Statement',                  s:consolelog-color, '',       '',          '')
-call <sid>hi('StorageClass',               s:storage-color, '',       '',          '')
-call <sid>hi('String',                     s:string-colo, '',       '',          '')
+call <sid>hi('Statement',                  s:consolelog_color, '',       '',          '')
+call <sid>hi('StorageClass',               s:storage_color, '',       '',          '')
+call <sid>hi('String',                     s:string_colo, '',       '',          '')
 call <sid>hi('Structure',                  s:base0E, '',       '',          '')
-call <sid>hi('Tag',                        s:tag-color, '',       '',          '')
-call <sid>hi('Todo',                       s:white, s:folded-codecolor, '',          '')
-call <sid>hi('Type',                       s:type-color, '',       '',          '')
+call <sid>hi('Tag',                        s:tag_color, '',       '',          '')
+call <sid>hi('Todo',                       s:white, s:folded_codecolor, '',          '')
+call <sid>hi('Type',                       s:type_color, '',       '',          '')
 call <sid>hi('Typedef',                    s:base0A, '',       '',          '')
 
 call <sid>hi('SpellBad',                   '',       '',       'undercurl', '')
@@ -200,18 +200,18 @@ call <sid>hi('cssClassName',               s:base0E, '',       '',          '')
 
 call <sid>hi('DiffAdd',                    s:base0B, s:base01, 'bold',      '')
 call <sid>hi('DiffChange',                 s:base03, s:base01, '',          '')
-call <sid>hi('DiffDelete',                 s:consolelog-color, s:base01, '',          '')
+call <sid>hi('DiffDelete',                 s:consolelog_color, s:base01, '',          '')
 call <sid>hi('DiffText',                   s:base0D, s:base01, '',          '')
 call <sid>hi('DiffAdded',                  s:base10, s:base0B, 'bold',      '')
-call <sid>hi('DiffFile',                   s:consolelog-color, s:base00, '',          '')
+call <sid>hi('DiffFile',                   s:consolelog_color, s:base00, '',          '')
 call <sid>hi('DiffNewFile',                s:base0B, s:base00, '',          '')
 call <sid>hi('DiffLine',                   s:base0D, s:base00, '',          '')
-call <sid>hi('DiffRemoved',                s:base10, s:consolelog-color, 'bold',      '')
+call <sid>hi('DiffRemoved',                s:base10, s:consolelog_color, 'bold',      '')
 
-" call <sid>hi('Error',                      s:consolelog-color, s:none,   'undercurl',          '')
-" call <sid>hi('NvimInternalError',          s:consolelog-color, s:none,   '',          '')
-" call <sid>hi('NvimInternalError',          s:consolelog-color, s:none,   '',          '')
-call <sid>hi('gitCommitOverflow',          s:consolelog-color, '',       '',          '')
+" call <sid>hi('Error',                      s:consolelog_color, s:none,   'undercurl',          '')
+" call <sid>hi('NvimInternalError',          s:consolelog_color, s:none,   '',          '')
+" call <sid>hi('NvimInternalError',          s:consolelog_color, s:none,   '',          '')
+call <sid>hi('gitCommitOverflow',          s:consolelog_color, '',       '',          '')
 call <sid>hi('gitCommitSummary',           s:base0B, '',       '',          '')
 
 call <sid>hi('htmlBold',                   s:base0A, '',       '',          '')
@@ -233,13 +233,13 @@ call <sid>hi('markdownBold',               s:base0A, '',       s:bold,      '')
 call <sid>hi('markdownCodeDelimiter',      s:base0F, '',       s:italic,    '')
 call <sid>hi('markdownError',              s:base05, s:base00, '',          '')
 
-call <sid>hi('NeomakeErrorSign',           s:consolelog-color, s:base00, '',          '')
+call <sid>hi('NeomakeErrorSign',           s:consolelog_color, s:base00, '',          '')
 call <sid>hi('NeomakeWarningSign',         s:base0A, s:base00, '',          '')
 call <sid>hi('NeomakeInfoSign',            s:base10, s:base00, '',          '')
-call <sid>hi('NeomakeError',               s:consolelog-color, '',       'undercurl', s:consolelog-color)
-call <sid>hi('NeomakeWarning',             s:consolelog-color, '',       'undercurl', s:consolelog-color)
+call <sid>hi('NeomakeError',               s:consolelog_color, '',       'undercurl', s:consolelog_color)
+call <sid>hi('NeomakeWarning',             s:consolelog_color, '',       'undercurl', s:consolelog_color)
 
-call <sid>hi('ALEErrorSign',               s:consolelog-color, s:base00, s:bold,      '')
+call <sid>hi('ALEErrorSign',               s:consolelog_color, s:base00, s:bold,      '')
 call <sid>hi('ALEWarningSign',             s:base0A, s:base00, s:bold,      '')
 call <sid>hi('ALEInfoSign',                s:base10, s:base00, s:bold,      '')
 
@@ -264,7 +264,7 @@ call <sid>hi('rubyInterpolationDelimiter', s:base0F, '',       '',          '')
 call <sid>hi('rubyStringDelimiter',        s:base0B, '',       '',          '')
 call <sid>hi('rubyRegexp',                 s:base0C, '',       '',          '')
 
-call <sid>hi('sassidChar',                 s:consolelog-color, '',       '',          '')
+call <sid>hi('sassidChar',                 s:consolelog_color, '',       '',          '')
 call <sid>hi('sassClassChar',              s:base09, '',       '',          '')
 call <sid>hi('sassInclude',                s:base0E, '',       '',          '')
 call <sid>hi('sassMixing',                 s:base0E, '',       '',          '')
@@ -277,14 +277,14 @@ call <sid>hi('vimfilerClosedFile',         s:base0D, '',       '',          '')
 
 call <sid>hi('GitGutterAdd',               s:base0B, s:base00, s:bold,      '')
 call <sid>hi('GitGutterChange',            s:base0D, s:base00, s:bold,      '')
-call <sid>hi('GitGutterDelete',            s:consolelog-color, s:base00, s:bold,      '')
+call <sid>hi('GitGutterDelete',            s:consolelog_color, s:base00, s:bold,      '')
 call <sid>hi('GitGutterChangeDelete',      s:base0E, s:base00, s:bold,      '')
 
 call <sid>hi('SignifySignAdd',             s:base0B, s:base00, s:bold,      '')
 call <sid>hi('SignifySignChange',          s:base0D, s:base00, s:bold,      '')
-call <sid>hi('SignifySignDelete',          s:consolelog-color, s:base00, s:bold,      '')
+call <sid>hi('SignifySignDelete',          s:consolelog_color, s:base00, s:bold,      '')
 call <sid>hi('SignifySignChangeDelete',    s:base0E, s:base00, s:bold,      '')
-call <sid>hi('SignifySignDeleteFirstLine', s:consolelog-color, s:base00, s:bold,      '')
+call <sid>hi('SignifySignDeleteFirstLine', s:consolelog_color, s:base00, s:bold,      '')
 
 call <sid>hi('xmlTag',                     s:base0C, '',       '',          '')
 call <sid>hi('xmlTagName',                 s:base05, '',       '',          '')
@@ -296,8 +296,8 @@ call <sid>hi('xmlEndTag',                  s:base0C, '',       '',          '')
 let g:terminal_color_0=s:base00[0]
 let g:terminal_color_8=s:base00[0]
 
-let g:terminal_color_1=s:consolelog-color[0]
-let g:terminal_color_9=s:consolelog-color[0]
+let g:terminal_color_1=s:consolelog_color[0]
+let g:terminal_color_9=s:consolelog_color[0]
 
 let g:terminal_color_2=s:base0B[0]
 let g:terminal_color_10=s:base0B[0]
