@@ -4,7 +4,6 @@
 " ===============================================================
 
 " {{{ Setup
-  set background=dark
   hi clear
   if exists("syntax_on")
     syntax reset
@@ -18,47 +17,47 @@
 
 
 " {{{ Colors
-  let s:editor_backgroundcolor=['#332d5a']
-  let s:editor_color=['#7b9cff']
-  let s:gutter_color=['#665b8d']
-  let s:gutter_punk=['hellyea']
-  let s:selectedline_backgroundcolor=['#28254a']
-  let s:selectedline_backgroundguttercolor=['#7b9cff']
-  let s:cursor_color=['#ffd400']
-  let s:indentguide_linecolor=['#51467c']
-  let s:folded_codecolor=['#ff2f91']
-  let s:bracketmatcher_backgroundcolor=['#fad549']
-  let s:comment_color=['#51467c']
-  let s:selector_color=['#fd477b']
-  let s:pseudo_color=['#ff9700']
-  let s:propertyname_color=['#7b9cff']
-  let s:propertyvalue_color=['#cacadb']
-  let s:unit_color=['#ff9409']
-  let s:number_color=['#07fdff']
-  let s:punctuation_color=['#cacadb']
-  let s:doctype_color=['#cacadb']
-  let s:tag_color=['#c02b44']
-  let s:attributename_color=['#a477f1']
-  let s:quotationmark_color=['#cacadb']
-  let s:string_color=['#807711']
-  let s:storage_color=['#a477f1']
-  let s:storagemodifier_color=['#a477f1']
-  let s:operator_color=['#fffb00']
-  let s:functionname_color=['#7b9cff']
-  let s:consolelog_color=['#ff2600']
-  let s:class_color=['#ff9700']
-  let s:instance_color=['#00f900']
-  let s:regex_color=['#ffffff']
-  let s:control_color=['#85c99b']
-  let s:constant_color=['#fec109']
-  let s:boolean_color=['#fa685c']
-  let s:module_color=['#e52661']
-  let s:namespace_color=['#effb23']
-  let s:type_color=['#00f900']
-  let s:identifier_color=['#7d6a52']
-  let s:gitgutter_lineaddedcolor=['#03ff66']
-  let s:gitgutter_linemodifiedcolor=['#ffd400']
-  let s:gitgutter_lineremovedcolor=['#ff0100']
+  let s:editor_backgroundcolor=['#332d5a', '235']
+  let s:editor_color=['#7b9cff', '235']
+  let s:gutter_color=['#665b8d', '235']
+  let s:gutter_punk=['hellyea', '235']
+  let s:selectedline_backgroundcolor=['#28254a', '235']
+  let s:selectedline_backgroundguttercolor=['#7b9cff', '235']
+  let s:cursor_color=['#ffd400', '235']
+  let s:indentguide_linecolor=['#51467c', '235']
+  let s:folded_codecolor=['#ff2f91', '235']
+  let s:bracketmatcher_backgroundcolor=['#fad549', '235']
+  let s:comment_color=['#51467c', '235']
+  let s:selector_color=['#fd477b', '235']
+  let s:pseudo_color=['#ff9700', '235']
+  let s:propertyname_color=['#7b9cff', '235']
+  let s:propertyvalue_color=['#cacadb', '235']
+  let s:unit_color=['#ff9409', '235']
+  let s:number_color=['#07fdff', '235']
+  let s:punctuation_color=['#cacadb', '235']
+  let s:doctype_color=['#cacadb', '235']
+  let s:tag_color=['#c02b44', '235']
+  let s:attributename_color=['#a477f1', '235']
+  let s:quotationmark_color=['#cacadb', '235']
+  let s:string_color=['#807711', '235']
+  let s:storage_color=['#a477f1', '235']
+  let s:storagemodifier_color=['#a477f1', '235']
+  let s:operator_color=['#fffb00', '235']
+  let s:functionname_color=['#7b9cff', '235']
+  let s:consolelog_color=['#ff2600', '235']
+  let s:class_color=['#ff9700', '235']
+  let s:instance_color=['#00f900', '235']
+  let s:regex_color=['#ffffff', '235']
+  let s:control_color=['#85c99b', '235']
+  let s:constant_color=['#fec109', '235']
+  let s:boolean_color=['#fa685c', '235']
+  let s:module_color=['#e52661', '235']
+  let s:namespace_color=['#effb23', '235']
+  let s:type_color=['#00f900', '235']
+  let s:identifier_color=['#7d6a52', '235']
+  let s:gitgutter_lineaddedcolor=['#03ff66', '235']
+  let s:gitgutter_linemodifiedcolor=['#ffd400', '235']
+  let s:gitgutter_lineremovedcolor=['#ff0100', '235']
   let s:white=['#ffffff']
 
   let s:base00=['#000000', '235']
@@ -313,3 +312,50 @@ let g:terminal_color_15=s:base05[0]
 
 let g:terminal_color_background=s:base00[0]
 let g:terminal_color_foreground=s:base10[0]
+
+
+
+
+Error detected while processing function <SNR>12_hi:
+line    4:
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+line    8:
+E684: list index out of range: 1
+line    4:
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+line    8:
+E684: list index out of range: 1
+line    4:
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
+E684: list index out of range: 1
